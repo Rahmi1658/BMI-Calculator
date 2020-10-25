@@ -48,6 +48,7 @@ namespace BMI_Calculator
             float BMI = (gewicht / lengtemeter);
 
 
+
             if (BMI <= 18.5)
             {
                 lblAdvies.Text = ("onder gewicht, u moet met spoet naar de huisarts ");
